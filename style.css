@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    margin-bottom: 55px;
+}
+
+.tnt1 {
+    font-size: 125px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 125px;
+    padding: 25px;
+}
+
+.pa {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.tnt2 {
+    font-size: 75px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    padding: 25px;
+    width: 100%;
+}
+
+.pa1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.secao1 {
+    background: url('./images/fundo.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: 2;
+}
+
+.secao1::after {
+    content: '';
+    background: rgba(0,0,0,0.700);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.divisao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 145px;
+}
+
+.divisao iframe {
+    width: 700px;
+    height: 335px;
+    max-width: 90%;
+}
+
+@media (width < 1200px) {
+
+    .tnt1 {
+        font-size: 70px;
+    }
+
+    .tnt2 {
+        font-size: 40px;
+    }
+
+    .pa {
+        font-size: 22px;
+    }
+}
