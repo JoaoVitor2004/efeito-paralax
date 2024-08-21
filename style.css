@@ -6,6 +6,8 @@
 body {
     background-color: black;
     margin-bottom: 55px;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .tnt1 {
